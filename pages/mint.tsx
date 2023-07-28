@@ -39,7 +39,7 @@ const [percent, setPercent] = useState<any | null>(null);
     // const { createCollection, isCreating, setIsCreating, getNFTs } =
     // useDataContext();
 
-console.log('image',image);
+// console.log('image',image);
     
   const [myCar, setMyCar] = useState("nft-collection");
   const [symbol, setSymbol] = useState("");
@@ -130,7 +130,7 @@ const handleSubmit = async (event: { preventDefault: () => void }) => {
     //name , symbol type
     event.preventDefault();
     console.log(myCar);
-    console.log(name);
+    console.log(contractName);
     console.log(symbol);
     console.log(recipient);
     console.log(percent);
@@ -271,13 +271,13 @@ console.log('working');
 
 export default IndexPage
 
-function getRootProps(): React.JSX.IntrinsicAttributes & React.ClassAttributes<HTMLDivElement> & React.HTMLAttributes<HTMLDivElement> {
-  throw new Error('Function not implemented.')
-}
+// function getRootProps(): React.JSX.IntrinsicAttributes & React.ClassAttributes<HTMLDivElement> & React.HTMLAttributes<HTMLDivElement> {
+//   throw new Error('Function not implemented.')
+// }
 
-function getInputProps(): React.JSX.IntrinsicAttributes & React.ClassAttributes<HTMLInputElement> & React.InputHTMLAttributes<HTMLInputElement> {
-  throw new Error('Function not implemented.')
-}
+// function getInputProps(): React.JSX.IntrinsicAttributes & React.ClassAttributes<HTMLInputElement> & React.InputHTMLAttributes<HTMLInputElement> {
+//   throw new Error('Function not implemented.')
+// }
 // function useDataContext(): { createCollection: any; isCreating: any; setIsCreating: any; getNFTs: any } {
 //   throw new Error('Function not implemented.')
 // }
